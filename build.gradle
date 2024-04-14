@@ -19,7 +19,7 @@ dependencies {
 
     implementation 'io.quarkus:quarkus-rest'
     implementation 'io.quarkus:quarkus-rest-jackson'
-    implementation 'io.quarkus:quarkus-mongodb-rest-data-panache'
+    implementation("io.quarkus:quarkus-mongodb-panache")
 }
 
 group 'org.quarkus'
